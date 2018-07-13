@@ -1,13 +1,12 @@
 #include <stdio.h>
  int main(void) 
  {
- int a,b;
- printf("\n Enter the range:");
- scanf("%d%d",&a,&b);
- for(int i=a+1;i<b;i++)
+ int x,y,i;
+ scanf("%d%d",&x,&y);
+ for( i=x+1;i<y;i++)
  {
  	if(i%2!=0)
- 	printf("%d\n",i);
+ 	printf("\t%d",i);
  }
 	return 0;
 }
